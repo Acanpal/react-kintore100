@@ -1,8 +1,11 @@
-import { Button } from "./components/Button"
+import { Button } from "./components/Button/Button"
 
 function App() {
   return (
-    <Button>ok</Button>
+    <div>
+      <Button type="button">ボタンクリック!</Button>
+      <h1></h1>
+    </div>
   ) 
 }
 export default App
